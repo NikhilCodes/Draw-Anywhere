@@ -25,3 +25,5 @@ Not just any simple Digit Recognition. MNIST Digit Recognition got lot more Inte
 | keras        |`pip install keras`        |
 | numpy        |`pip install numpy`        |
 | tensorflow   |`pip install tenorflow`    |
+
+### DON'T FORGET TO HIT THE STAR BUTTON.
