@@ -108,7 +108,7 @@ def main(opt):
                 for i in range(1, len(points)):
                     if points[i - 1] is None or points[i] is None:
                         continue
-                    cv2.line(canvas, points[i - 1], points[i], BLUE_RGB, 30)
+                    cv2.line(canvas, points[i - 1], points[i], BLUE_RGB, 60)
                     cv2.line(frame, points[i - 1], points[i], WHITE_RGB, 30)
 
         if is_shown:
