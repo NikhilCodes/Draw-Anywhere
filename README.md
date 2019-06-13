@@ -17,3 +17,11 @@ Not just any simple Digit Recognition. MNIST Digit Recognition got lot more Inte
 ## Demo
 ![gif Playback](DEMO/DEMO-1.gif)
 <br><br>
+
+## Dependencies
+|   Library    |       pip command         |
+|--------------|---------------------------|
+| cv2          |`pip install opencv-python`|
+| keras        |`pip install keras`        |
+| numpy        |`pip install numpy`        |
+| tensorflow   |`pip install tenorflow`    |
