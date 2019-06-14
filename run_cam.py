@@ -72,6 +72,7 @@ def main(opt):
                     contour = sorted(contour_gs, key=cv2.contourArea, reverse=True)[0]
                     x, y, w, h = cv2.boundingRect(contour)
                     image = canvas_gs[y:y + h, x:x + w]
+                    image = image/np.max(image)
                     image = cv2.resize(image, (28, 28))
                     image = np.array(image, dtype=np.float32)[None, None, :, :]
                     prediction = model.predict(np.moveaxis(image, 1, -1))
